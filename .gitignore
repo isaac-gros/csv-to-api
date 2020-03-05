@@ -8,4 +8,7 @@
 /var/
 /vendor/
 /node_modules/
+package.lock
+composer.lock
+symfony.lock
 ###< symfony/framework-bundle ###
