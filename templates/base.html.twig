@@ -10,4 +10,7 @@
         {% block javascripts %}{% endblock %}
     </body>
     <h1>{{ title }}</h1>
+    <form action="{{ path('read_csv') }}" method="POST">
+        <input type="submit" value="Nouveau document">
+    </form>
 </html>

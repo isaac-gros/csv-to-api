@@ -1,0 +1,11 @@
+doctrine_mongodb:
+    connections:
+        default:
+            server: mongodb://127.0.0.1:27017
+            options: {}
+    default_database: csv_api
+    document_managers:
+        default:
+            connection: default
+            database: csv_api
+            auto_mapping: true
